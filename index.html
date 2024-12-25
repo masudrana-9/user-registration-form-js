@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="registration-form">
+            <h1>Registration Form</h1>
+            <form action="" id="registration-form">
+                <div class="input-field">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" placeholder="Enter Your First Name here">
+                    <small></small>
+                </div>
+                <div class="input-field">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" placeholder="Enter Your Last Name here">
+                    <small></small>
+                </div>
+                <div class="input-field">
+                    <label for="email">User Email:</label>
+                    <input type="text" name="email" placeholder="Enter Your Email here">
+                    <small></small>
+                </div>
+                <div class="input-field">
+                    <label for="password">User Password:</label>
+                    <input type="text" name="password" placeholder="Enter Your Password here">
+                    <small></small>
+                </div>
+                <div class="input-field">
+                    <label for="gender" id="gender">Select Gender:</label>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="others"> Others <br/>
+                    <small></small>
+                </div>
+                <p class="text">Already Have an Account ? <a href="#">Login Now</a></p>
+                <button type="submit" id="registration-btn" value="registration">Registration</button>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
